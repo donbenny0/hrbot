@@ -1,0 +1,11 @@
+Welcome to the Local RAG Chatbot!
+
+This project demonstrates how to build a Retrieval-Augmented Generation (RAG) pipeline using local tools only. It uses the following:
+
+- FAISS for fast local vector similarity search
+- SentenceTransformers for embeddings
+- Ollama for local language model inference (e.g., mistral, llama2)
+
+You can feed it any plain text files, and it will retrieve the most relevant context to answer user questions intelligently.
+
+All processing is done locally — no internet or external APIs required.

@@ -1,0 +1,16 @@
+How to Use the Local RAG Chatbot:
+
+1. Place all your `.txt` documents inside the `docs/` directory.
+2. Run the `rag_chatbot.py` script.
+3. When prompted, type in a question related to the content in your documents.
+4. The chatbot will retrieve the most relevant information from your documents and generate an answer using a local LLM.
+
+Tips:
+- Keep your text files well-organized and clean.
+- Break long documents into paragraphs for better chunking.
+- You can replace the embedding model or language model easily in the script.
+
+Example questions:
+- "What is this chatbot for?"
+- "How do I add new documents?"
+- "What technologies are used in this project?"
