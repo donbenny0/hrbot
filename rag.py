@@ -6,7 +6,7 @@ import numpy as np
 import faiss
 import os
 from sentence_transformers import SentenceTransformer
-from typing import List, Tuple  # Added this import
+from typing import List, Tuple 
 
 class LocalRAGSystem:
     def __init__(self, model_name='all-mpnet-base-v2'):
@@ -15,11 +15,11 @@ class LocalRAGSystem:
         self.vectorizer = TfidfVectorizer(stop_words='english', ngram_range=(1, 2))
         self.index = None
         self.documents = []
-        self.metadata = []  # Store metadata for each chunk
+        self.metadata = [] 
         self.chunk_size = 500
         self.chunk_overlap = 50
         self.semantic_weight = 0.7 
-        self.keyword_weight = 0.3   # Weight for keyword search results
+        self.keyword_weight = 0.3
         
     def chunk_text(self, text, source=None):
         """Split text into overlapping chunks with metadata"""
@@ -161,7 +161,6 @@ class LocalRAGSystem:
             return f"Error querying Ollama: {str(e)}"
     
     def rag_query(self, query: str) -> str:
-        """Complete RAG pipeline with improved semantic capabilities"""
         print(f"\nQuery: {query}")
         
         # Retrieve relevant documents
