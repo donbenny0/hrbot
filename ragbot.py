@@ -1,9 +1,8 @@
 import re
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
-# Updated import as per deprecation warning
 from langchain_huggingface import HuggingFaceEmbeddings
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+# from langchain.text_splitter import RecursiveCharacterTextSplitter
 embeddings = HuggingFaceEmbeddings(model_name="BAAI/bge-large-en-v1.5")
 file_path = "docs/story.txt"
 
@@ -54,3 +53,5 @@ def create_semantic_chunks():
     return semantic_chunks
 
 
+# Print chunks in a verifiable format
+chunks = create_semantic_chunks()
