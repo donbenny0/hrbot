@@ -1,0 +1,23 @@
+{
+
+    "session_id": "test_session_001",
+    "user_id": "XXXXXXXXXXXXX",
+    "chat": [
+        {
+            "role": "user",
+            "content": "What is the capital of France?"
+        },
+        {
+            "role": "assistant",
+            "content": "The capital of France is Paris."
+        },
+        {
+            "role": "user",
+            "content": "Can you tell me more about Paris?"
+        },
+        {
+            "role": "assistant",
+            "content": "Paris is known for its art, fashion, and culture. It is home to famous landmarks such as the Eiffel Tower and the Louvre Museum."
+        }
+    ],
+}
