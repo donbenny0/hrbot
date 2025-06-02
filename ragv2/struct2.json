@@ -1,0 +1,26 @@
+{
+    "user_id":"xxxx xxx xxxxx xxxx",
+    "session_id":"xxxx xxx xxxxx xxxx",
+    "messages":[
+        {
+            "user":{
+                "content":"Hello, how are you?",
+                "timestamp":"2023-10-01T12:05:00Z"
+            },
+            "assistant":{
+                "content":"I'm doing well, thank you! How can I assist you today?",
+                "timestamp":"2023-10-01T12:05:00Z"
+            }
+        },
+        {
+            "user":{
+                "content":"Can you tell me a joke?",
+                "timestamp":"2023-10-01T12:06:00Z"
+            },
+            "assistant":{
+                "content":"Sure! Why don't scientists trust atoms? Because they make up everything!",
+                "timestamp":"2023-10-01T12:06:00Z"
+            }
+        }
+    ]
+}

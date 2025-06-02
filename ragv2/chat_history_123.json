@@ -1,38 +1,55 @@
-[
-  {
-    "user_message": "what do you know about him?",
-    "assistant_response": "I'm sorry, but I don't have any information about \"him\" based on the provided context. If you can provide more specific details or context about the individual in question, I may be able to assist you better.",
-    "timestamp": "2025-05-19T11:55:35.462777",
-    "session_id": "1",
-    "summarized": false
-  },
-  {
-    "user_message": "Which among the values reflects about the flexibility?",
-    "assistant_response": "The value that reflects flexibility in the context provided is **ADAPTABILITY**. This value emphasizes:\n\n- Identifying and addressing uncertainties early\n- Examining multiple alternatives\n- Organisational flexibility to challenge the status quo\n- Openness to innovative ideas and continuous learning\n\nAdditionally, the handbook mentions **FLEXIBILITY** in the context of choosing work arrangements, such as working from home and balancing personal life with work commitments. \n\nThese elements collectively highlight the importance of flexibility within the company's values and culture.",
-    "timestamp": "2025-05-19T12:02:00.009323",
-    "session_id": "1",
-    "summarized": false
-  },
-  {
-    "role": "system",
-    "summary": "Shine Mathew is the CEO and Founder of AyataCommerce, a company he established in 2016. He prioritizes a positive work culture, emphasizing core values of empathy, trust, and adaptability, which guide the company's operations and interactions. Under his leadership, AyataCommerce has expanded significantly, including partnerships with SAP, launching a new website in 2019, and opening offices in Kochi and Bangalore. Regarding employee policies, it is generally acceptable to take a half-day leave for sudden illness, provided that employees notify their managers promptly and adhere to the company's sick leave policies, which may require documentation for extended absences.",
-    "timestamp": "2025-05-19T12:22:32.738950",
-    "session_id": "default_session",
-    "summarized": true,
-    "summary_of": [
-      "2025-05-19T11:53:27.401883",
-      "2025-05-19T11:54:33.216673",
-      "2025-05-19T11:55:56.791574",
-      "2025-05-19T11:57:48.209028",
-      "2025-05-19T12:00:20.423890",
-      "2025-05-19T12:22:31.148535"
-    ]
-  },
-  {
-    "user_message": "Is it ok to take a half day leave if i am sick suddenly?",
-    "assistant_response": "Yes, it is generally acceptable to take a half-day leave for sudden illness at AyataCommerce, provided you notify your manager promptly. Here are the key points to consider:\n\n### Eligibility Requirements:\n- **Notification**: Inform your manager as soon as possible on the first day of absence.\n- **Documentation**: If your absence extends beyond 2 days, you will need a medical certificate from your General Physician.\n\n### Limitations:\n- **Sick Leave Balance**: Ensure you have sufficient sick leave available. If you exhaust your Sick/Casual leaves, the leave taken during sickness may be adjusted against your earned leaves.\n- **Approval**: The timing of your leave should be agreed upon with your manager as early as possible.\n\nFor more details, refer to the company's Leave Guidelines or contact your designated HR representative.",
-    "timestamp": "2025-05-19T12:38:32.702117",
-    "session_id": "default_session",
-    "summarized": false
+{
+  "user_id": {
+    "sessions": {
+      "session_id_1": {
+        "messages": [
+          {
+            "user": {
+              "content": "Hello, how are you?",
+              "timestamp": "2023-10-01T12:05:00Z"
+            },
+            "assistant": {
+              "content": "I'm doing well, thank you! How can I assist you today?",
+              "timestamp": "2023-10-01T12:05:00Z"
+            }
+          },
+          {
+            "user": {
+              "content": "Can you tell me a joke?",
+              "timestamp": "2023-10-01T12:06:00Z"
+            },
+            "assistant": {
+              "content": "Sure! Why don't scientists trust atoms? Because they make up everything!",
+              "timestamp": "2023-10-01T12:06:00Z"
+            }
+          }
+        ],
+        "timestamp": "2023-10-01T12:00:00Z"
+      },
+      "session_id_2": {
+        "messages": [
+          {
+            "user": {
+              "content": "Hello, how are you?",
+              "timestamp": "2023-10-01T12:05:00Z"
+            },
+            "assistant": {
+              "content": "I'm doing well, thank you! How can I assist you today?",
+              "timestamp": "2023-10-01T12:05:00Z"
+            }
+          },
+          {
+            "user": {
+              "content": "Can you tell me a joke?",
+              "timestamp": "2023-10-01T12:06:00Z"
+            },
+            "assistant": {
+              "content": "Sure! Why don't scientists trust atoms? Because they make up everything!",
+              "timestamp": "2023-10-01T12:06:00Z"
+            }
+          }
+        ]
+      }
+    }
   }
-]
+}
